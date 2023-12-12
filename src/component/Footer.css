@@ -1,0 +1,30 @@
+.subsection{
+    display: flex;
+}
+.sub{
+    display: flex;
+    padding: 5em;
+    cursor: pointer;
+}
+.sectionn{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.image{
+    padding-right: 10px;
+}
+h2{
+    opacity: .5;
+    padding-bottom: 10px;
+}
+h3:hover{
+    color: rgb(255, 0, 0);
+}
+@media only screen and (max-width: 600px){
+    .sub{
+        display: block;
+    }
+    .subsection{
+        display: block;
+    }
+}

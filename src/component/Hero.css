@@ -1,0 +1,91 @@
+.herosection{
+    display: flex;
+    padding: 5em;
+    cursor: pointer;
+
+}
+.sectionOne{
+    width: 48em;
+}
+.heroImg{
+    width: 48em;
+}
+.heroOne{
+    width: 100%;
+}
+.heroSectionOne{
+    display: flex;
+    gap:10em;
+}
+.sectionWord{
+    width: 80%;
+    line-height: 2;
+}
+button{
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: rgb(255, 69, 0);
+    border: none;
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
+p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+    font-size: small;
+}
+
+h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+h4:hover{
+    color: rgb(255, 255, 0);
+}
+.sectionTwo{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    padding: 10px;
+}
+.sectionTwo h1{
+    color: rgb(255, 255, 0);
+}
+.heroImg2{
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .heroImg{
+        display: none;
+    }
+    .heroImg2{
+        display: block;
+        width: 19em;
+        padding: 10px;
+    }
+    .heroSectionOne{
+        display: block;
+
+    }
+    .herosection{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    .sectionWord{
+        width: 40%;
+    }
+    .heroOne h1{
+        font: 27px;
+}
+.sectionOne{
+    margin-left: 1em; 
+    margin-right: 2em;
+}
+button{
+    margin-bottom: 10px;
+}
+}
